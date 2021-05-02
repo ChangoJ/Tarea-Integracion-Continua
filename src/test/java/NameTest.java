@@ -20,4 +20,9 @@ public class NameTest {
     public void getAttributeBackwards() {
         assertEquals("nadroJ",this.name.getAttributeBackwards());
     }
+
+    @Test
+    public void getStringAllCapitalLetters() {
+        assertEquals("JORDAN",this.name.getStringAllCapitalLetters());
+    }
 }

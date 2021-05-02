@@ -26,4 +26,9 @@ public class Name {
         return nameBackwards;
     }
 
+    public String getStringAllCapitalLetters(){
+        String nameCapitalLetters = name.toUpperCase();
+        return nameCapitalLetters;
+    }
+
 }

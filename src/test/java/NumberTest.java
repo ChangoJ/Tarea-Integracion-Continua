@@ -16,4 +16,9 @@ public class NumberTest {
         assertEquals(4,this.number.getAdittion() );
     }
 
+
+    @Test
+    public void getSubtraction() {
+        assertEquals(2,this.number.getSubtraction());
+    }
 }

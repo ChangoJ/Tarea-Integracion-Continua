@@ -18,4 +18,17 @@ public class Name {
         return count;
     }
 
+    public String getAttributeBackwards(){
+        String nameBackwards = "";
+        for (int i = name.length() - 1; i >= 0; i--) {
+            nameBackwards += name.charAt(i);
+        }
+        return nameBackwards;
+    }
+
+    public String getStringAllCapitalLetters(){
+        String nameCapitalLetters = name.toUpperCase();
+        return nameCapitalLetters;
+    }
+
 }

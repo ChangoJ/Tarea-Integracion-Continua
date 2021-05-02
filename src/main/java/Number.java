@@ -29,4 +29,10 @@ public class Number {
         addition = numberOne + numberTwo;
         return addition;
     }
+
+    public int getSubtraction(){
+        int subtraction;
+        subtraction = numberOne - numberTwo;
+        return subtraction;
+    }
 }

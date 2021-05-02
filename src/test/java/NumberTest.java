@@ -21,4 +21,9 @@ public class NumberTest {
     public void getSubtraction() {
         assertEquals(2,this.number.getSubtraction());
     }
+
+    @Test
+    public void getMultiplication() {
+        assertEquals(3,this.number.getMultiplication());
+    }
 }

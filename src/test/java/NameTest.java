@@ -15,4 +15,9 @@ public class NameTest {
     public void getNumberCharacter(){
         assertEquals(6,this.name.getNumberCharacter());
     }
+
+    @Test
+    public void getAttributeBackwards() {
+        assertEquals("nadroJ",this.name.getAttributeBackwards());
+    }
 }
